@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #fce138;
-    --secondary-color: #024e76;
+    --primary-color: #6dcdb1;
+    --secondary-color: #f6f7f7;
     --tertiary-color: #39a6b2;
   }
 
@@ -303,45 +303,6 @@ section {
     flex: 12;
 }
 
-/* Meet the Trainers */
-.trainers {
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.trainer {
-    margin: 20px;
-    background: var(--secondary-color);
-    color: var(--primary-color);
-    flex: 1;
-}
-
-.trainer img {
-    width: 100%;
-}
-
-.trainer-bio {
-    padding: 25px;
-    line-height: 1.3;
-}
-
-
-.trainer-bio h3 {
-    font-size: 28px;
-}
-
-.trainer-bio h4 {
-    font-weight: lighter;
-    font-size: 22px;
-    margin-bottom: 15px;
-}
-
-.trainer-bio p {
-    font-size: 17px;
-}
 
 /* Reach Out section */
 .contact {
