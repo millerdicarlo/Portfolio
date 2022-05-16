@@ -157,6 +157,7 @@ header nav ul li a:hover {
 /* Projects */
 .steps {
     background: var(--tertiary-color);
+    align-items: center;
 }
 
 .steps a {
@@ -167,11 +168,11 @@ header nav ul li a:hover {
     margin: 50px auto;
     padding-bottom: 50px;
     width: 80%;
+    background: var(--tertiary-color);
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    background: var(--tertiary-color);
 }
 
 .step h3 {
@@ -207,10 +208,17 @@ header nav ul li a:hover {
     max-width: 100%;
 }
 
-.step-text {
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .step-text {
     flex: 12;
 }
-
 
 /* Contact */
 .contact {
