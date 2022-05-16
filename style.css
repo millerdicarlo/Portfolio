@@ -119,10 +119,9 @@ header nav ul li a:hover {
     flex-wrap: wrap;
     align-items: flex-start;
     background-attachment: fixed;
-
-    font-style: italic;
-    font-size: 55px;
-    color: var(--primary-color);
+}
+.hero img {
+    object-fit: cover;
 }
 /* Hero Style End */
 
@@ -160,6 +159,10 @@ header nav ul li a:hover {
     background: var(--tertiary-color);
 }
 
+.steps a {
+    color: var(--secondary-color);
+}
+
 .step {
     margin: 50px auto;
     padding-bottom: 50px;
@@ -172,7 +175,7 @@ header nav ul li a:hover {
 }
 
 .step h3 {
-    color: var(--secondary-color);
+    color: var(--primary-color);
     font-size: 46px;
     flex: 1 30%;
 }
@@ -192,7 +195,7 @@ header nav ul li a:hover {
 .step-text h4 {
     font-size: 26px;
     line-height: 1.5;
-    color: var(--secondary-color);
+    color: var(--quatrinary-color);
 }
 
 .step-img {
