@@ -1,9 +1,9 @@
 :root {
-    --primary-color: #3BBA9C;
-    --secondary-color: #2E3047;
-    --tertiary-color: #43455C;
-    --quatrinary-color: #3C3F58;
-    --quintary-color: #707793:
+    --primary-color: #C2EDCE;
+    --secondary-color: #6FB3B8;
+    --tertiary-color: #388087;
+    --quatrinary-color: #F6F6F2;
+    --quint-color: #badfe7;
   }
 
 * {
@@ -11,6 +11,8 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
 
 /* Utilities Section */
 
@@ -29,12 +31,13 @@
 /* Steps- General */
 .section-title {
     font-size: 48px;
-    color: var(--secondary-color);
+    color: var(--primary-color);
     border-bottom: 3px solid;
     padding-bottom: 20px;
     text-align: center;
     margin: 0 auto 35px auto;
     width: 50%;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
 }
 
 .primary-border {
@@ -73,11 +76,13 @@ header h1 {
     color: var(--primary-color);
     margin: 0;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: var(--tertiary-color);
 }
 
 header a {
     text-decoration: none;
     color: var(--primary-color);
+    background-color: var(--tertiary-color);
 }
 
 header nav {
@@ -90,6 +95,7 @@ header nav ul {
     justify-content: space-between;
     align-items: center;
     list-style: none;
+    background-color: var(--tertiary-color);
   }
 header nav ul li a {
     padding: 10px 15px;
@@ -117,12 +123,14 @@ header nav ul li a:hover {
     font-style: italic;
     font-size: 55px;
     color: var(--primary-color);
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
 }
 /* Hero Style End */
 
 
 /* About Me Section */
+.intro {
+    background-color: var(--primary-color)
+}
 .intro h2 {
     background-size: cover;
     background-position: center;
@@ -134,7 +142,7 @@ header nav ul li a:hover {
 
     font-style: italic;
     font-size: 55px;
-    color: var(--primary-color);
+    color: #388087;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
 }
 
@@ -149,7 +157,7 @@ header nav ul li a:hover {
 
 /* Projects */
 .steps {
-    background: var(--primary-color);
+    background: var(--tertiary-color);
 }
 
 .step {
@@ -160,9 +168,7 @@ header nav ul li a:hover {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-}
-.step:not(:last-child) {
-    border-bottom: 1px solid var(--tertiary-color);
+    background: var(--tertiary-color);
 }
 
 .step h3 {
@@ -205,7 +211,7 @@ header nav ul li a:hover {
 
 /* Contact */
 .contact {
-    background-color: var(--secondary-color);
+    background-color: #6FB3B8;
 }
 
 .contact-info {
@@ -349,9 +355,6 @@ header nav ul li a:hover {
 
 /* Media query for mobile phones and smaller (screens smaller than 575px) */
 @media screen and (max-width: 575px) {
-    .hero-form button {
-        width: 100%;
-    }
     .section-title {
         width: 95%;
     }
