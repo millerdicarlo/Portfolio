@@ -161,7 +161,8 @@ header nav ul li a:hover {
 }
 
 .steps a {
-    color: var(--secondary-color);
+    color: var(--quatrinary-color);
+    font-size: 25px;
 }
 
 .step {
