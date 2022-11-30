@@ -127,9 +127,11 @@ header nav ul li a:hover {
 
 
 /* About Me Section */
+/*
 .intro {
-    background-color: var(--primary-color)
+    background-color: var(--primary-color) 
 }
+*/
 .intro h2 {
     background-size: cover;
     background-position: center;
@@ -225,7 +227,7 @@ header nav ul li a:hover {
 
 /* Contact */
 .contact {
-    background-color: #6FB3B8;
+    background-color: var(--primary-color);
 }
 
 .contact-info {
@@ -240,7 +242,7 @@ header nav ul li a:hover {
 }
 
 .contact h2 {
-    color:var(--primary-color);
+    color:var(--tertiary-color);
 }
 
 .contact-info div {
@@ -248,7 +250,7 @@ header nav ul li a:hover {
   }
 
 .contact-info h3 {
-    color: var(--primary-color);
+    color: var(--tertiary-color);
     font-size: 32px;
     text-align: left;
 }
@@ -263,7 +265,7 @@ header nav ul li a:hover {
 }
 
 .contact-info a {
-    color: var(--primary-color);
+    color: var(--tertiary-color);
 }
 
 .contact-form input, .contact-form textarea {
@@ -299,6 +301,46 @@ header nav ul li a:hover {
 }
 
 /* End Reach Out Section */
+
+/* Meet the Trainers */
+.trainers {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.trainer {
+    margin: 20px;
+    background: var(--secondary-color);
+    color: var(--primary-color);
+    flex: 1;
+}
+
+.trainer img {
+    width: 100%;
+}
+
+.trainer-bio {
+    padding: 25px;
+    line-height: 1.3;
+}
+
+
+.trainer-bio h3 {
+    font-size: 28px;
+}
+
+.trainer-bio h4 {
+    font-weight: lighter;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.trainer-bio p {
+    font-size: 17px;
+}
 
 
 /* Media Query for smaller desktop screens and smaller (screens smaller than 980px) */
@@ -389,7 +431,7 @@ header nav ul li a:hover {
 
 /* Footer */
 footer {
-    background: var(--primary-color);
+    background: var(--tertiary-color);
     width: 100%;
     padding: 40px 35px;
     display: flex;
@@ -397,7 +439,7 @@ footer {
     flex-wrap: wrap;
 }
 footer h2 {
-    color: var(--secondary-color);
+    color: var(--primary-color);
     font-size: 30px;
     margin: 0;
 }
