@@ -226,9 +226,11 @@ header nav ul li a:hover {
 }
 
 /* Contact */
+/*
 .contact {
     background-color: var(--primary-color);
 }
+*/
 
 .contact-info {
     display: flex;
@@ -302,7 +304,11 @@ header nav ul li a:hover {
 
 /* End Reach Out Section */
 
-/* Meet the Trainers */
+/* Projects */
+.projects {
+    background-color: var(--secondary-color);
+}
+
 .trainers {
     width: 100%;
     margin: 0 auto;
@@ -313,10 +319,11 @@ header nav ul li a:hover {
 
 .trainer {
     margin: 20px;
-    background: var(--secondary-color);
+    background: var(--tertiary-color);
     color: var(--primary-color);
     flex: 1;
 }
+
 
 .trainer img {
     width: 100%;
