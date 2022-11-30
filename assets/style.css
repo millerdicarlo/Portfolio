@@ -226,11 +226,10 @@ header nav ul li a:hover {
 }
 
 /* Contact */
-/*
+
 .contact {
-    background-color: var(--primary-color);
+    border: var(--primary-color);
 }
-*/
 
 .contact-info {
     display: flex;
